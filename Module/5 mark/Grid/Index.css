@@ -1,0 +1,29 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.item {
+  background: rgb(230, 173, 192);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 8px;
+  transition:  0.4s;
+}
+
+.middle {
+  grid-row: span 2;
+  background: skyblue;
+} 
+
+.item:hover {
+  background-color: blue;
+  color: white;
+  transform: scale(1.05);
+}
