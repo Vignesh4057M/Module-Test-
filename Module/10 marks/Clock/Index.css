@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#clock {
+  font-size: 70px;
+  color: #00eaff;
+  font-weight: bold;
+  letter-spacing: 4px;
+  padding: 20px 30px;
+}
